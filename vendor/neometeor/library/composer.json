@@ -1,0 +1,25 @@
+{
+    "name": "neometeor/library",
+    "description": "Custom Package for Module 10",
+    "license": "MIT",
+    "keywords": ["laravel", "cache"],
+    "authors": [
+        {
+            "name": "Houston",
+            "email": "neometeor@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.2",
+        "laravelcollective/html": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Neometeor\\Library\\": "src"
+        }
+    },
+    "post-update-cmd": [
+        "php artisan vendor:publish --tag=public --force"
+    ]
+}

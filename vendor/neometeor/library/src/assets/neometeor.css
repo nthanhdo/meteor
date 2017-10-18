@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+label {
+    color: yellow;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid pink;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+th {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #333333;
+}
+
+thead {
+    font-weight: bold;
+    color: darkorange;
+}
+
+a.neologo {
+    color: red;
+    font-weight: bold;
+}
+a.neologo:hover {
+    color: #2ca02c;
+}
+
+.italic {
+    font-style: italic;
+}
+
+textarea {
+    width: 300px;
+    height: 50px;
+}
+a.neologo:hover {
+    color: #2ca02c;
+}
+.selection {
+    width: 300px;
+    height: 50px;
+    background-color: #3b5998;
+}

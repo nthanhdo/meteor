@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{Dojo-1.8.3, ExtJS GPL-4.2, Meteor/leaderboard/node_modules, angular-DefinitelyTyped, express-DefinitelyTyped, meteor-DefinitelyTyped, react-DefinitelyTyped}" />
+    <includedPredefinedLibrary name="WebGL" />
+  </component>
+</project>
